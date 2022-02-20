@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Validation </title>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+
+    <!--registration form-->
+    <div class="input_container">
+        <h1>Sign Up</h1>
+        <h2>It's quick and easy.</h2>
+        <form name="formValidation" id="formValidation" action="valid.html">            
+            <div class="input-row">
+                <input type="name" id="fnamee"  name="first name" placeholder="first name*" required>
+                <span class="formvalidationn" id="fname_error_message"></span>
+            </div>
+            <div class="input-row">
+                <input type="name" id="lnamee"  name="last name" placeholder="last name*" required>
+                <span class="formvalidationn" id="lname_error_message"></span>
+            </div>
+            <div class="input-row">
+                <input type="email" id="emaill" name="email" placeholder="email*" required>
+                <span class="formvalidationn" id="email_error_message"></span>
+            </div>
+            <div class="input-row">
+                <input type="password" id="passwordd"  name="password" placeholder="new password*" required>
+                <span class="formvalidationn" id="password_error_message"></span>
+            </div>
+            <div class="input-row">
+                <input type="Phone" id="numberr" name="Phone" placeholder="Phone*" required>
+                <span class="formvalidationn" id="number_error_message"></span>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+</body>
+</html>
